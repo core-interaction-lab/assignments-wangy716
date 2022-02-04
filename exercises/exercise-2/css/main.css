@@ -1,0 +1,12 @@
+html{
+    font-size: 24px;
+}
+.container{
+    font-size: 32px;
+}
+.post{
+    padding: 16px; //=1em
+}
+.post--small{
+    font-size: 10px;
+}
