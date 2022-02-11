@@ -1,0 +1,37 @@
+body{
+    background: url(https://wallpaperaccess.com/full/1098082.jpg) 
+    center center no-repeat;
+    background-position: top center;
+    height: 100vh;
+    margin:0;
+    background-size: cover; 
+}
+
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.call-to-action h1{
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+.call-to-action a{
+    background-color: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+@media (max-width: 813px){
+    .call-to-action h1{
+        font-size: 80px;
+    }
+}
