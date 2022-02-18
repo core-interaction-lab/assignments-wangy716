@@ -1,0 +1,108 @@
+body{
+    background-position: top center;
+    height: 100vh;
+    margin:0;
+    background-size: cover; 
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+  }
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu ul li {
+    margin: 0 1rem;
+    font-family: evander;
+    font-size: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+
+
+.content{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.call-to-action h1{
+    margin: 0%;
+    color:white;
+    font-family: evander;
+    font-size: 58px;
+    margin-top: -30px;
+    
+}
+.call-to-action p{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 10%;
+}
+
+.call-to-action a{
+    background-color: transparent;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    border: 1px white solid;
+    font-size: 35px;
+}
+
+.call-to-action .logo {
+    /*position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%) scale(1.2);*/
+    display: block;
+    opacity: 0.5;
+}
+
+@media (max-width: 813px){
+    .call-to-action h1{
+        font-size: 50px;
+        margin-top: -50px;
+    }
+    .call-to-action a{
+        color: black;
+        background-color: white;
+        padding: 0.5rem;
+        font-family: 'Bebas Neue', cursive;
+        border: none;
+        font-size: 25px;
+        animation: help 1s infinite;
+    }
+    .call-to-action .logo {
+        transform: scale(0.9);
+        opacity: 0.8;
+    }
+}
+
