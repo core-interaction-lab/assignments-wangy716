@@ -1,15 +1,17 @@
 body{
-
+margin-left: 5%;
 }
 
 .header{
     display: flex;
+
 }
 .header h2{
     font-size: 70px;
     font-family: evander;
     margin: 0;
     flex-grow: 1;
+    color: black;
 }
 
 .menu {
@@ -43,26 +45,33 @@ body{
 }
 .information h3{
     font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 3%;
 }
 
 .information .general{
     text-align: justify;
-    margin-right: 26%;
+    margin-right: 20%;
     align-content: center;
     font-family: 'Courier New', Courier, monospace;
 }
 .submenu{
     position:absolute;
+    position: fixed;
     top: 50%;
     right: 0;
 }
 
 .submenu ul{
     list-style-type: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
 }
 .submenu a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 
@@ -80,4 +89,35 @@ padding: 1rem;
 font-size: 15px;
 }
 
+body{
+    background-color: black;
+}
+.header{
+    position: fixed;
+
+}
+.header h2{
+    color: white;
+}
+.information h3{
+    color: white;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+.general{
+    color: white;
+}
+.submenu{
+    border: white 1px solid;
+}
+.submenu a{
+    color: white;
+}
+}
+
+
+@media (max-height: 800px){
+    .general{
+        border: black 1px solid;
+    }
 }
