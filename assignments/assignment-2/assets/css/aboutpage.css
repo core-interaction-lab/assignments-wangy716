@@ -74,7 +74,10 @@ margin-left: 5%;
     color: white;
 }
 
-
+.foot p{
+    justify-items: center;
+    align-items: center;
+    }
 @media (max-width: 813px){
 .header h2{
     font-size: 35px;
@@ -113,6 +116,9 @@ body{
 .submenu a{
     color: white;
 }
+.foot p {
+    color: gainsboro;
+}
 }
 
 
@@ -121,3 +127,4 @@ body{
         border: black 1px solid;
     }
 }
+
