@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+i{
+    font-style: normal;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    border: 1px solid #248E82;
+    max-width: 315px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.primary-header img{
+    display: block;
+}
+
+.content{
+    padding: 27px;
+}
+
+.heading{
+    font-size: 29px;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+
+.subheading{
+    font-size: 16px;
+    margin: 0;
+    text-transform: uppercase;
+}   
+
+.signup-form{
+    margin-top: 45px;
+}
+
+.form-input{
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #666666;
+    border: 1.5px solid white;
+    margin-bottom: 15px;
+}
+
+.form-input::placeholder{
+color: #BFBFBF;
+text-align: center;
+}
+
+.form-input-buttom{
+    background-color: #248E82;
+    width: 218px;
+    height: 45px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+.social-nav{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto 25px auto;
+}
+
+.social-nav ul{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-nav li{
+    padding-top: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.social-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+@media(min-width:900px){
+    .body{
+        padding: 0 45px;
+    }
+
+    .primary-header{
+        width: 50%;
+    }
+
+    .container{
+        display: flex;
+        max-width: 1276px;
+    }
+
+    .content{
+        flex:1;
+    }
+
+    .wrapper{
+        max-width: 352px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .primary-header img{
+        display: block;
+    }
+
+    .heading{
+        margin-top: 120px;
+    }
+}
