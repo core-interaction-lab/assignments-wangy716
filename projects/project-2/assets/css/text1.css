@@ -1,3 +1,4 @@
+
 .primary{
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +18,7 @@
 .start{
     font-family: 'Are You Serious', cursive;
     font-size: 188px;
-    line-height: 70px;
+    line-height: 80px;
     text-align: left;
     margin-top: 10%;
     margin-left: 208px;
@@ -25,47 +26,95 @@
 }
 
 .paragraph{
-    margin-top: 5%;
+    margin-top: 8%;
     font-family: Rockwell;
-    margin-left: 15%;
+    padding-left: 15%;
+    margin-bottom: 10%;
 
 }
 .line1:hover{
     font-size: 36px;
     margin-top: 6%;
+    color: red;
+    background-color: black;
 }
 .line2:hover{
-    font-size: 48px;
+    font-size: 24px;
     margin-right: 25%;
+    color: red;
+    background-color: black;
 }
 .line3:hover{
-    font-size: 24px;
+    font-size: 36px;
+    color: red;
+    background-color: black;
 }
 .line4:hover{
     font-size: 36px;
+    color: red;
+    background-color: black;
 }
 .line5:hover{
     font-size: 64px;
+    color: red;
+    background-color: black;
 }
-
 .inside:hover{
     font-size: 48px;
     margin: 0;
+    color: red;
+    background-color: black;
 }
 .line6:hover{
     font-size: 24px;
+    color: red;
+    background-color: black;
 }
 .line7:hover{
     font-size: 36px;
+    color: red;
+    background-color: black;
 }
 .line8:hover{
     font-size: 24px;
+    color: red;
+    background-color: black;
 }
 .line9:hover{
     font-size: 64px;
+    color: red;
+    background-color: black;
 }
-
-
+.line10:hover{
+    font-size: 24px;
+    color: red;
+    background-color: black;
+}
+.line11:hover{
+    font-size: 48px;
+    color: red;
+    background-color: black;
+}
+.line12:hover{
+    font-size: 64px;
+    color: black;
+    background-color: red;
+}
+.line13:hover{
+    font-size: 24px;
+    color: red;
+    background-color: black;
+}
+.line14:hover{
+    font-size: 36px;
+    color: red;
+    background-color: black;
+}
+.line15:hover{
+    font-size: 24px;
+    color: red;
+    background-color: black;
+}
 
 @keyframes bigger {
     0%{
