@@ -1,0 +1,100 @@
+.primary{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #AB0F0F;
+}
+.primary .first{
+    color: black;
+    overflow:auto;
+}
+
+.start{
+    font-family: 'Are You Serious', cursive;
+    font-size: 188px;
+    line-height: 70px;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 208px;
+    color: black;
+}
+
+.paragraph{
+    margin-top: 5%;
+    font-family: Rockwell;
+    margin-left: 15%;
+
+}
+.line1:hover{
+    font-size: 36px;
+    margin-top: 6%;
+}
+.line2:hover{
+    font-size: 48px;
+    margin-right: 25%;
+}
+.line3:hover{
+    font-size: 24px;
+}
+.line4:hover{
+    font-size: 36px;
+}
+.line5:hover{
+    font-size: 64px;
+}
+
+.inside:hover{
+    font-size: 48px;
+    margin: 0;
+}
+.line6:hover{
+    font-size: 24px;
+}
+.line7:hover{
+    font-size: 36px;
+}
+.line8:hover{
+    font-size: 24px;
+}
+.line9:hover{
+    font-size: 64px;
+}
+
+
+
+@keyframes bigger {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 4;
+    border: black 1px solid;
+    border-radius: 50%;
+}
+
+.menu ul li {
+    margin: 0 1rem;
+
+}

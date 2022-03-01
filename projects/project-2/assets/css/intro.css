@@ -1,0 +1,54 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.project-name{
+    display: flex;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 48px;
+    height: 9vh;
+    margin-bottom: 0;
+    margin-top: 20%;
+}
+
+.content .info{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.morse-code{
+    margin-top: 37px;
+    font-family: arno-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.morse-code:hover{
+    color: red;
+}
+
+.decode{
+    display: none;
+}
+.decode:hover{
+    display:content;
+    color:black;
+}
+
+.login{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 20px;
+    border: 1px black solid;
+    padding: 10px 20px;
+    margin-top: 3%;
+}
