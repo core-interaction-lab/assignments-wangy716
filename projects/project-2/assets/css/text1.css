@@ -16,8 +16,8 @@
 }
 
 .start{
-    font-family: 'Are You Serious', cursive;
-    font-size: 188px;
+font-family:roboto mono; 
+    font-size: 70px;
     line-height: 80px;
     text-align: left;
     margin-top: 10%;
@@ -32,43 +32,37 @@
     margin-bottom: 10%;
 
 }
-.line1:hover{
+.line1{
     font-size: 36px;
     margin-top: 6%;
-    color: red;
-    background-color: black;
+
 }
-.line2:hover{
+.line2{
     font-size: 24px;
     margin-right: 25%;
-    color: red;
-    background-color: black;
+
 }
-.line3:hover{
+
+.line3{
     font-size: 36px;
-    color: red;
-    background-color: black;
+
 }
-.line4:hover{
+.line4{
     font-size: 36px;
-    color: red;
-    background-color: black;
+
 }
-.line5:hover{
+.line5{
     font-size: 64px;
-    color: red;
-    background-color: black;
+
 }
-.inside:hover{
+.inside{
     font-size: 48px;
     margin: 0;
-    color: red;
-    background-color: black;
+
 }
-.line6:hover{
+.line6{
     font-size: 24px;
-    color: red;
-    background-color: black;
+
 }
 .line7:hover{
     font-size: 36px;

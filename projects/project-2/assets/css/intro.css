@@ -67,7 +67,7 @@
 
 
 .morse-code{
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: arno-pro,serif;
     font-weight: 400;
     font-style: normal;
@@ -80,7 +80,7 @@
 }
 
 .decode{
-    display: ;
+    display: none;
 }
 .decode:hover{
     display:content;

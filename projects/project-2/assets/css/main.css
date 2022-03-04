@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.hospital-name{
+    font-family: angel wish;
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+
+.hospital-name h1{
+    font-size: 36px;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.title{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.small{
+    font-family: arno-pro,serif;
+    font-weight: 400;
+    font-style: normal;    
+    font-size: 150px;
+    margin:0;
+    padding: 0;
+}
+.header{
+    font-family: arno-pro,serif;
+    font-weight: 400;
+    font-style: normal;    
+    font-size: 260px;
+    margin:0;
+    padding: 0;
+}
+
+.intro{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    margin:0;
+    font-size: 18px;
+}
+
+.nav{
+    justify-content: center;
+    margin-right: 30%;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav ul li {
+    margin: 0 1rem;
+    font-size: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    border: 1px black solid;
+    padding: 0.2rem;;
+}
+
+.rights{
+    position:absolute;
+    bottom: 0;
+    left: 20px;
+    color: rgb(136, 136, 136);
+}
+
+
+
+
+

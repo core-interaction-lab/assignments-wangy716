@@ -1,0 +1,31 @@
+
+.container{
+    font-family:Typestar;
+}
+
+
+.patient .patient-name{
+    padding-left: 10%;
+}
+.patient .patient-answer{
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 17%;
+    margin-right: 12%;
+}
+
+.redaction{
+    border: none ;
+    background-color: black;
+}
+
+.redaction:hover{
+    border: solid 1px #C70808;
+    background-color: transparent;
+}
+
+.description{
+justify-content: center;
+align-items: center;
+text-align: center;
+}
