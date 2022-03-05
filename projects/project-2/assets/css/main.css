@@ -41,6 +41,7 @@ a{
     font-size: 260px;
     margin:0;
     padding: 0;
+    line-height: 0.7;
 }
 
 .intro{
@@ -74,9 +75,8 @@ a{
 }
 
 .rights{
-    position:absolute;
-    bottom: 0;
-    left: 20px;
+text-align: center;
+padding-top: 13%;
     color: rgb(136, 136, 136);
 }
 
