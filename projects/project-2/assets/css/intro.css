@@ -105,6 +105,10 @@
     border: 1px black solid;
     background-color: white;
     padding: 10px 15px;
+    color: black;
+}
+a{
+    text-decoration: none;
 }
 .login:hover{
     cursor: pointer;
