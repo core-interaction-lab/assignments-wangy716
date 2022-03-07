@@ -24,7 +24,6 @@ body{
     margin-left: 2%;
 }
 
-
 .hospital-name h1{
     font-size: 52px;
     color:black;
@@ -106,8 +105,6 @@ a{
     background-color: #C70808;
 }
 
-
-
 .rights{
 text-align: center;
 padding-top: 9%;
@@ -117,27 +114,33 @@ color: rgb(136, 136, 136);
 
 @media (max-width:813px) {
 .hospital-name h1{
-    font-size: 24px;
+    font-size: 28px;
 }
 .hospital-name a{
     font-size: 18px;
 }
 .title .small{
     font-size:55px;
+    margin-top: 43%;
 }
 .title .header{
     font-size: 90px;
 }
 .intro{
     font-size: 12px;
+    text-align: center;
 }
 .nav ul{
     flex-direction: column;
     text-align: center;
+    justify-content: space-between;
 }
 .nav ul li a{
     font-size: 14px;
+    padding-left: 13%;
+    padding-right: 13%;
 }
+
 .rights{
     font-size: 10px;
     position: absolute;

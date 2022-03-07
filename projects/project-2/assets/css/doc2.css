@@ -1,4 +1,6 @@
-
+body{
+    background-color: rgb(241, 241, 241);
+}
 
 .top{
     display: flex;

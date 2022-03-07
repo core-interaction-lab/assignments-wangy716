@@ -7,8 +7,6 @@ stay.forEach(function(element){
 
 
 
-
-
 window.onscroll = function() {myFunction()};
 
 function myFunction() {

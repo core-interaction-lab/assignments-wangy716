@@ -1,8 +1,22 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: white;
     color: black;
+    background-color: rgb(241, 241, 241);
+    animation: background-color 2s infinite;
+}
+
+@keyframes background-color {
+    0%{
+        background-color: rgb(241, 241, 241);;
+    }
+    50%{
+        background-color: rgb(219, 219, 219);;
+    }
+    100%{
+        background-color: rgb(241, 241, 241);;
+    }
+    
 }
 
 i{
@@ -12,6 +26,7 @@ i{
 
 .container{
     border: 1px solid black;
+    background-color: white;
     max-width: 315px;
     width: 100%;
     box-sizing: border-box;

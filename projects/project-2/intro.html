@@ -16,25 +16,29 @@
             PROJECT: Patient#1843-01
         </header>
         <article class="info">
-          "The Tell-Tale Heart" is a short story written by Edgar Allan Poe, published in 1843. The story is related by an unnamed narrator who endeavors to convince readers of his/her sanity while describing a murder the narrator committed. Therefore, I focus on the first person point of view of the story to let readers directly face to the main character telling story by designing the font size and spacing between sentences to mimic talking emotion and breath breaks. - Yi Wang<BR><BR><br>
+          "The Tell-Tale Heart" is a short story written by Edgar Allan Poe, published in 1843. The story is told by an unnamed narrator who endeavors to convince readers of his sanity while describing a murder he committed. In this project, I make the narrator becomes a patient at Saint. Heart Asylum talks about the story so that readers can directly feel the tension and emotion. Also, I applied black squares to hide important information (redacted document) to let readers explore and interact more with the text. - Yi Wang<BR><BR><br>
       <div class="box">
           <div class="actor">
-            START FROM NOW, YOU ARE A DOCTOR WHO FOUND THE DEAN OF HOSPITAL'S MESSAGE WHO DISAPPEARED WITH PATIENT#1843-01 A WEEK AGO.... 
+            Start now, you are a journalist who accidentally found and bought a morse code card in an antique store and decoded it...
             
           </div>
       </div>
         </article>
-        <article class="morse-code">
-          - --- / .-- .... --- . ...- . .-. / -.. . -.-. --- -.. . -.. --..-- / .... . .-. . / .. ... / - .... . / -.. . .- -. / --- ..-. / - .... . / .... --- ... .--. .. - .- .-.. .-.-.- / .--. .-.. . .- ... . / .-.. --- --. / .. -. / - --- / - .... . / .... --- ... .--. .. - .- .-.. .----. ... / -.. --- -.-. ..- -- . -. - .- - .. --- -. / .-- . -... ... .. - . / .- -. -.. / ..-. .. -. -.. / # .---- ---.. ....- ...-- -....- ----- .---- .----. ... / ..-. .. .-.. . / .-- .. - .... / - .... . / .... .. --. .... . ... - / .- ..- - .... --- .-. .. - -.-- / .- -.-. -.-. . ... ... / -.-. --- -.. . / .-..-. ... . -.-. .-. . - . .-..-. / - --- / ... . . / - .... . / ..- .--. -.. .- - . .-.-.- .-.-.- .-.-.- / .. - / .-- .- ... / # .---- ---.. ....- ...-- -....- ----- .---- -.-.-- -.-.-- / .. - / .-- .- ... / .- .-.. .-.. / --- ..- .-. / .... --- ... .--. .. - .- .-.. .----. ... / ..-. .- ..- .-.. - .-.-.- .-.-.- .-.-.- / .. # .-.. .-.. / - .- -.- . / .-. . ... .--. --- -. ... .. -... .. .-.. .. - -.-- .-.-.- .-.-.- .-.-.- / ... .. -. -.-. . .-. . .-.. -.-- / ... --- .-. .-. -.-- .-.-.- / -.. . .- -.
+        <article class="morse-code" id="code">
+          - --- / .-- .... --- . ...- . .-. / -.. . -.-. --- -.. . -.. / - .... .. ... --..-- / .... . .-. . / .. ... / -.. --- -.-. - --- .-. / . -.. --. .- .-. / .- .-.. .-.. .- -. / .--. --- . .-.-.- / .--. .-.. . .- ... . / .-.. --- --. / .. -. / - --- / ... - .-.-.- / .... . .- .-. - / .- ... -.-- .-.. ..- -- .----. ... / -.. --- -.-. ..- -- . -. - .- - .. --- -. / .-- . -... ... .. - . / .- -. -.. / ..-. .. -. -.. / # .---- ---.. ....- ...-- -....- ----- .---- .----. ... / ..-. .. .-.. . / .-- .. - .... / - .... . / .... .. --. .... . ... - / .- ..- - .... --- .-. .. - -.-- / .- -.-. -.-. . ... ... / -.-. --- -.. . / .-..-. ... . -.-. .-. . - . .-..-. / - --- / ... . . / - .... . / ..- .--. -.. .- - . .-.-.- .-.-.- .-.-.-
         </article>
-        <article class="decode">
-          To whoever decoded,
-          Here is the dean of the hospital. 
-          Please log in to the hospital's documentation website and find #1843-01's file with the highest authority access code "secrete" to see the update...
-          It was #1843-01!!  It was all our hospital's fault... I’ll take responsibility...
-          Sincerely sorry. 
-          Dean
+        <article class="decode" id="decode">
+          TO WHOEVER DECODED THIS, HERE IS DOCTOR Edgar Allan Poe. PLEASE LOG IN TO ST. HEART ASYLUM'S DOCUMENTATION WEBSITE AND FIND #1843-01'S FILE WITH THE HIGHEST AUTHORITY ACCESS CODE "SECRETE" TO SEE THE UPDATE...    
         </article>
           <a href="login.html"><button type="button">LOGIN</button></a>
       </section>
+
+
+  <script>
+const code = document.getElementById("code");
+const decode = document.getElementById("decode");
+code.addEventListener("click", function(show){
+  code.classList.add(".decode-show");
+})
+  </script>
   </body>

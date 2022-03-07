@@ -19,12 +19,11 @@
     font-family: "Roboto Mono", monospace;
     font-weight: 400;
     margin-top: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 9%;
+    margin-right: 9%;
 }
 
 .box {
-
     width: 100%;
     margin: 0 auto;
     border: 1px solid black;
@@ -35,6 +34,7 @@
 .actor{
     color: white;
     animation: 10s wordsLoop linear infinite normal;
+    text-transform: uppercase;
 }
 
  
@@ -76,16 +76,26 @@
     margin-bottom: 3%;
 }
 
-.morse-code:hover{
-    color: red;
+.decode{
+    position: absolute;
+    bottom:25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    opacity: 0;
+    text-transform: uppercase;
 }
 
-.decode{
-    display: none;
-}
 .decode:hover{
     display:content;
-    color:black;
+    color:#C70808;
+    opacity: 1;
+    background-color: white;
+    padding-bottom: 1%;
+}
+
+.decode-show{
+    color:#C70808;
+    opacity: 1;
 }
 
 button{

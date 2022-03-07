@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(236, 236, 234);
+    background-color: rgb(241, 241, 241);
 }
 
 .top{
@@ -17,6 +17,7 @@ body{
     font-size: 35px;
     align-items: center;
 }
+
 .top p{
     margin: 65px 0;
     margin-right: 5%;
