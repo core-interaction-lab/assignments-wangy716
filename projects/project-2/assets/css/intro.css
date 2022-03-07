@@ -98,7 +98,7 @@
     opacity: 1;
 }
 
-button{
+.login{
     font-family: "Roboto Mono", monospace;
     font-weight: 400;
     font-size: 18px;
@@ -106,7 +106,7 @@ button{
     background-color: white;
     padding: 10px 15px;
 }
-button:hover{
+.login:hover{
     cursor: pointer;
     background-color: black;
     color: white;
