@@ -1,13 +1,11 @@
-body{
-    background-color: rgb(236, 236, 234);
-}
+
 
 .top{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
-
 .hospital-name{
     font-family: angel wish;
     margin:0;

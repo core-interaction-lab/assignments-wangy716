@@ -60,6 +60,7 @@ i{
 .form-input::placeholder{
 color: #BFBFBF;
 text-align: center;
+font-size: 18px;
 }
 
 .form-input-buttom{
@@ -76,6 +77,8 @@ text-align: center;
 
 .form-input-buttom:hover{
     cursor: pointer;
+    color: white;
+    background-color: black;
 }
 
 @media(min-width:813px){

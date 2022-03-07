@@ -13,9 +13,17 @@
 </head>
 
 <body>
+
+  <video autoplay muted loop id="myVideo">
+    <source src="assets/imgs/effect.mp4" type="video/mp4">
+  </video>
+
 <div class="top">
   <header class="hospital-name">
 <h1>Saint Heart Asylum</h1>
+
+<a href="intro.html">Log Out</a>
+
   </header>
 </div>
 
@@ -29,31 +37,30 @@
   </article>
   </div>
 
-  <hr>
+
   <div class="nav">
     <ul>
       <li>
-        <a href="dox1.html">Document-1</a>
+        <a href="doc1.html">Document-1</a>
       </li>
 
       <li>
-        <a href="a">Document-2</a>
+        <a href="doc2.html">Document-2</a>
       </li>
 
       <li>
-        <a href="a">Document-3</a>
+        <a href="doc3.html">Document-3</a>
       </li>
 
-      <li>
-        <a href="a">Document-4</a>
-      </li>
     </ul>
   </div>
 </section>
 <footer class="rights">
-  @1843 All rights reserved for St. Heart Hospital
+  @1843 All rights reserved for St.Heart Hospital
 </footer>
 
 
-    
+<script>
+var vid = document.getElementById("myVideo");
+  vid.playbackRate = 0.3;</script>
 </body>
