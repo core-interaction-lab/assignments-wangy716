@@ -28,12 +28,23 @@
       </div>
         </article>
         <article class="morse-code" id="code">
-          - --- / .-- .... --- . ...- . .-. / -.. . -.-. --- -.. . -.. / - .... .. ... --..-- / .... . .-. . / .. ... / -.. --- -.-. - --- .-. / . -.. --. .- .-. / .- .-.. .-.. .- -. / .--. --- . .-.-.- / .--. .-.. . .- ... . / .-.. --- --. / .. -. / - --- / ... - .-.-.- / .... . .- .-. - / .- ... -.-- .-.. ..- -- .----. ... / -.. --- -.-. ..- -- . -. - .- - .. --- -. / .-- . -... ... .. - . / .- -. -.. / ..-. .. -. -.. / # .---- ---.. ....- ...-- -....- ----- .---- .----. ... / ..-. .. .-.. . / .-- .. - .... / - .... . / .... .. --. .... . ... - / .- ..- - .... --- .-. .. - -.-- / .- -.-. -.-. . ... ... / -.-. --- -.. . / .-..-. ... . -.-. .-. . - . .-..-. / - --- / ... . . / - .... . / - .-. ..- - .... / --- ..-. / # .---- ---.. ....- ...-- -....- ----- .---- .----. ... / -.. . .- - .... .-.-.- .-.-.- .-.-.-
+          - .... . / - .-. ..- - .... / --- ..-. / ... - .-.-.- .... . .- .-. - / .- ... -.-- .-.. ..- -- / # .---- ---.. ....- ...-- -....- ----- .---- .----. ... / -.. . .- - .... / .-- .. - .... / -.-. --- -.. . / .-..-. ... . -.-. .-. . - . .-..-.
         </article>
-        <article class="decode" id="decode">
-          TO WHOEVER DECODED THIS, HERE IS DOCTOR Edgar Allan Poe. PLEASE LOG IN TO ST. HEART ASYLUM'S DOCUMENTATION WEBSITE AND FIND #1843-01'S FILE WITH THE HIGHEST AUTHORITY ACCESS CODE "SECRETE" TO SEE THE truth of #1843-01's death...    
+        <article class="decode hidden" id="decode">
+          The truth of St.Heart Asylum #1843-01's death with code "SECRETE" 
         </article>
           <a href="login.html"><div class="login">LOGIN</div></a>
       </section>
+<script>
+const morseCode = document.getElementById("code");
+const decode = document.getElementById("decode");
+const toggleCode = evt => {
+  decode.classList.toggle("hidden");
+  morseCode.classList.toggle("hidden");
+};
 
+morseCode.addEventListener("click", toggleCode);
+decode.addEventListener("click", toggleCode);
+
+</script>
   </body>
