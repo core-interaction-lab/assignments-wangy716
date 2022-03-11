@@ -77,7 +77,11 @@
 }
 
 .decode{
+    margin-top: 15px;
     text-transform: uppercase;
+    margin-bottom: 4%;
+    color: #C70808;
+
 }
 
 .hidden{
