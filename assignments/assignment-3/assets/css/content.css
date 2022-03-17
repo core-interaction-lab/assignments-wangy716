@@ -1,0 +1,22 @@
+body{
+    margin-left: 30%;
+}
+img{
+ max-width: 30%;
+ filter: brightness(3);
+ justify-content: center;
+ margin-top: 10%;
+ align-items: center;
+
+}
+
+#png{
+    opacity: 0.5;
+}
+
+
+#jpeg:hover{
+width: 800px;
+height: 600px;
+}
+

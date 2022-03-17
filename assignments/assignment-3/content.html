@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>assignment-3</title>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/content.css">
+  </head>
+<body>
+<img src="assets/imgs/blue2.png" alt="2" id="png" onmouseover="bigger()" onmouseout="smaller()">
+<img src="assets/imgs/blue1.jpeg" alt="1" id="jpeg">
+
+<script>
+const png =document.getElementById("png")
+
+function bigger(){
+ png.style.width = '800px';
+ png.style.height = '600px';
+}
+
+function smaller(){
+ png.style.width = '50%';
+ png.style.height = '50%';
+}
+</script>
+</body>
