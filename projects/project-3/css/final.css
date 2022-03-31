@@ -1,0 +1,38 @@
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.first{
+margin-top: 25%;
+font-size:50px ;
+margin-bottom: 0;
+
+}
+
+.circle{
+width: 500px;
+height: 500px;
+border: 5px solid rgba(0, 0, 0, .35);
+border-radius: 50%;
+margin: auto;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+
+}
+.below{
+    font-size: 30px;
+    border: 10px gray;
+    background-color: gray;
+    margin-top: 1rem;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+.retest{
+    font-size: 60px;
+    border: 5px black;
+}

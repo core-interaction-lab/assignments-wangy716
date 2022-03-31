@@ -1,0 +1,17 @@
+.content{
+    margin-top: 20%;
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.content h1{
+    margin: 0;
+}
