@@ -28,7 +28,6 @@ const fetchMovies = async()=>{
         imdbURLEL.classList.add("imdb-link");
         imdbURLEL.innerHTML = "IMDB Page";
 
-
         releaseDateEL.innerHTML = movie.fields.releaseDate;
         releaseDateEL.classList.add("date");
 
@@ -37,7 +36,6 @@ const fetchMovies = async()=>{
 
         posterEl.innerHTML = movie.fields.poster;
         posterEl.classList.add("poster");
-
         posterEl.width = 100;
         posterEl.height = 100;
        
