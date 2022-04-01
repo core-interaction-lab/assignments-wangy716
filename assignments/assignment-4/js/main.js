@@ -42,14 +42,6 @@ const fetchMovies = async()=>{
         posterEl.height = 100;
        
        
-
-
-
-
-
-
-
-
         articleEL.append(titleEL,genreEL,imdbURLEL,releaseDateEL,descriptionEl,posterEl);
 
         /* titleEL.innerHTML = "tiitle";*/
