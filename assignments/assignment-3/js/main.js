@@ -14,6 +14,8 @@ const fetchMovies = async()=>{
         const releaseDateEL = document.createElement("div");
         const descriptionEl = document.createElement("div");
         const posterEl = document.createElement("img");
+        console.log(movie.fields.poster[0].url)
+        posterEl.src = movie.fields.poster[0].url;
 
   
                                          /*must match*/
@@ -36,16 +38,16 @@ const fetchMovies = async()=>{
 
         posterEl.innerHTML = movie.fields.poster;
         posterEl.classList.add("poster");
-        posterEl.width = 100;
-        posterEl.height = 100;
-       
+
+
+
+
+
        
         articleEL.append(titleEL,genreEL,imdbURLEL,releaseDateEL,descriptionEl,posterEl);
 
         /* titleEL.innerHTML = "tiitle";*/
         moviesContainer.appendChild(articleEL);
-        moviesContainer.appendChild(posterEl);
-
     })
 
 
