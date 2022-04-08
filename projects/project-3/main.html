@@ -4,15 +4,40 @@
     <title>Who Are U?</title>
     <meta name="viewpoint" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
+
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'qcm4rwd',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
   </head>
 
 <body>
 
+  <audio loop autoplay id="audio_play">
+    <source src="imgs/legobgm.mp3" type="audio/ogg"/>
+  </audio>
+
+  
 <section class="content">
-<a href="final.html"><img src="imgs/black.png"></a>
+<a href="conversation.html"><img src="imgs/black.png"></a>
 <div class="header">
-    <h1>Which lego figre are you?</h1>
+  <p>Who are you in Lego World?</p>
 </div>
 </section>
 
+
+<audio loop autoplay id="audio_play">
+  <source src="imgs/legobgm.mp3" type="audio/ogg" />
+</audio>
+
+
 </body>
+
+
+</html>
