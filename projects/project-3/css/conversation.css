@@ -3,23 +3,28 @@ html {
   }
 
   #section1 {
-    height: 600px;
+    height: 800px;
   }
   #section2 {
-    height: 600px;
+    height: 800px;
   }
   #section3 {
-    height: 600px;
+    height: 800px;
   }
   #section4 {
-    height: 600px;
+    height: 800px;
   }
   #section5 {
-    height: 600px;
+    height: 800px;
   }
   #section6 {
-    height: 600px;
+    height: 800px;
   }
+
+  
+.inside-container{
+  padding-top: 15%;
+}
 
 .question{
     padding-left: 1%;
@@ -29,8 +34,12 @@ html {
     border: 1px solid #C4C4C4;
     border-radius: 13px;
     background-color: #C4C4C4;
-    margin-right: 68%;
-    margin-left: 123px;
+    margin-right: 50%;
+    margin-left: 223px;
+    font-size: 24px;
+font-family: lores-12,sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 
@@ -38,17 +47,25 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 123px;
+    margin-right: 223px;
+    margin-top: 2%;
+    
 }
 
+img{
+  max-width: 50%;
+  max-height: 50%;
+  background-color: #FFED00;
+  border: 1px yellow ;
+  border-radius: 13px;
+  padding: 0;
+  margin-right: 2%;
+}
 
 button{
-    background-color: #FFED00;
-    border: 1px yellow ;
-    border-radius: 13px;
-    font-size: 60px;
-    margin-left: 3%;
-    padding: 2%;
+border: transparent;
+background-color: transparent;
+
 }
 
 button:hover{
