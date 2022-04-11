@@ -34,7 +34,7 @@ html {
     border: 1px solid #C4C4C4;
     border-radius: 13px;
     background-color: #C4C4C4;
-    margin-right: 50%;
+    margin-right: 49%;
     margin-left: 223px;
     font-size: 24px;
 font-family: lores-12,sans-serif;
@@ -48,7 +48,7 @@ font-style: normal;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 223px;
-    margin-top: 2%;
+    margin-top: 5%;
     
 }
 
@@ -62,10 +62,22 @@ img{
   margin-right: 2%;
 }
 
+.yes{
+  background-color: #FFED00;
+  border: 1px yellow ;
+  border-radius: 13px;
+  font-size: 50px;
+  padding: 10px;
+  font-family: helvetica;
+  text-transform: uppercase;
+}
+
 button{
 border: transparent;
 background-color: transparent;
-
+display: flex;
+justify-content: flex-end;
+padding: 0;
 }
 
 button:hover{
