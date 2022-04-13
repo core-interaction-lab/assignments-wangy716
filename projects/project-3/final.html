@@ -15,18 +15,19 @@
         h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
       })(document);
     </script>
+
   </head>
 
 <body>
 
 <section class="center"> 
 <header class="first">YOU ARE</header>
-<div class="circle"></div>
+<div class="circle" id="result-image"></div>
 
 <article class="bottom">
-<div class="below">name</div>
-<div class="below">series</div>
-<div class="below">tag</div>
+<div class="below" id="result-name">name</div>
+<div class="below" id="result-series">series</div>
+<div class="below" id="result-tag">tag</div>
 </article>
 
 <footer class="back">
@@ -53,6 +54,9 @@
 <audio autoplay id="audio_play">
   <source src="imgs/finalcong.mp3" type="audio/ogg" />
 </audio>
+
+
+<script src="js/final.js"></script>
 
 
 </body>

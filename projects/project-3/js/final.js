@@ -28,7 +28,7 @@ const container = document.getElementById('lego-container');
         console.log(lego);
         if(lego.fields.Image){
             console.log(lego.fields.Image[0].url)
-            const legoImage = document.createElement('img');
+            const legoImage = document.getElementById('result-image');
 
            // legoImage.src = lego.fields.Image[0].url;
             legoImage.setAttribute('src', lego.fields.Image[0].url)
@@ -37,7 +37,7 @@ const container = document.getElementById('lego-container');
         }
 
         if(lego.fields.name){
-            const nameEL= document.createElement('p');
+            const nameEL= document.getElementById('result-name');
             nameEL.innerHTML = lego.fields.name;
             nameEL.classList.add =('name')
             container.append(nameEL);
