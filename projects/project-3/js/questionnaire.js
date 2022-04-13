@@ -46,5 +46,3 @@ const container = document.getElementById('lego-container');
 };
 
 fetchLego();
-
-const logoImage = document.getElementById('resul-image');

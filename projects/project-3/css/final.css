@@ -25,6 +25,15 @@ filter: drop-shadow(0px 4px 4px rgb(182, 180, 180));
 border-radius: 50%;
 margin: auto;
 background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.circle img{
+    max-width: 100%;
+    /* max-height: 100%; */
+    border-radius: 50%;
 }
 
 .bottom{

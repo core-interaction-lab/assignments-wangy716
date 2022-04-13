@@ -1,44 +1,44 @@
 html {
-  scroll-behavior: smooth;
-  cursor:help;
-}
+    scroll-behavior: smooth;
+    cursor:help;
+  }
 
 
-#section1 {
-  height: 800px;
-}
-#section2 {
-  height: 800px;
-}
-#section3 {
-  height: 800px;
-}
-#section4 {
-  height: 800px;
-}
-#section5 {
-  height: 800px;
-}
-#section6 {
-  height: 800px;
-}
+  #section1 {
+    height: 800px;
+  }
+  #section2 {
+    height: 800px;
+  }
+  #section3 {
+    height: 800px;
+  }
+  #section4 {
+    height: 800px;
+  }
+  #section5 {
+    height: 800px;
+  }
+  #section6 {
+    height: 800px;
+  }
 
-
+  
 .inside-container{
-padding-top: 15%;
+  padding-top: 15%;
 }
 
 .question{
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  border: 1px solid #C4C4C4;
-  border-radius: 13px;
-  background-color: #C4C4C4;
-  margin-right: 49%;
-  margin-left: 200px;
-  font-size: 24px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: 1px solid #C4C4C4;
+    border-radius: 13px;
+    background-color: #C4C4C4;
+    margin-right: 49%;
+    margin-left: 200px;
+    font-size: 24px;
 font-family: lores-12,sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -47,68 +47,68 @@ margin-bottom: 8%;
 
 
 .answer{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /* margin-right: 223px;
-  margin-top: 5%; */
-  padding: 0px 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-right: 223px;
+    margin-top: 5%; */
+    padding: 0px 8%;
 }
 
 .right{
-justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .small {
-max-width: 10vw;
+  max-width: 10vw;
 }
 
 img{
-/* max-width: 50%;
-max-height: 50%; */
-max-width: 20vw;
-margin-left: 30px;
-background-color: #FFED00;
-border: 1px yellow ;
-border-radius: 13px;
-padding: 0;
-margin-right: 2%;
+  /* max-width: 50%;
+  max-height: 50%; */
+  max-width: 20vw;
+  margin-left: 30px;
+  background-color: #FFED00;
+  border: 1px yellow ;
+  border-radius: 13px;
+  padding: 0;
+  margin-right: 2%;
 }
 
 img:hover{
-background-color: yellow;
-animation: hovering 0.5s infinite alternate;
+  background-color: yellow;
+  animation: hovering 0.5s infinite alternate;
 
 }
 
 .yes{
-background-color: #FFED00;
-border: 1px yellow ;
-border-radius: 13px;
-font-size: 50px;
-padding: 10px;
-font-family: helvetica;
-text-transform: uppercase;
-font-family: lores-12,sans-serif;
+  background-color: #FFED00;
+  border: 1px yellow ;
+  border-radius: 13px;
+  font-size: 50px;
+  padding: 10px;
+  font-family: helvetica;
+  text-transform: uppercase;
+  font-family: lores-12,sans-serif;
 }
 
 .yes:hover{
-background-color: yellow;
-animation: hovering 0.5s infinite alternate;
+  background-color: yellow;
+  animation: hovering 0.5s infinite alternate;
 }
 
 
 @keyframes hovering {
-0%{
-  transform: scale(1.2)
-};
-50%{
-  transform: scale(1.7)
-};
-100%{
-  transform: scale(1.2)
-};
-
+  0%{
+    transform: scale(1.2)
+  };
+  50%{
+    transform: scale(1.7)
+  };
+  100%{
+    transform: scale(1.2)
+  };
+  
 }
 button{
 border: transparent;
@@ -119,10 +119,10 @@ padding: 0;
 }
 
 button:hover{
-  cursor: pointer;
+    cursor: pointer;
 }
 
 
 a{
-  text-decoration: none;
+    text-decoration: none;
 }

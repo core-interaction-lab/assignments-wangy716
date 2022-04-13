@@ -35,8 +35,27 @@ const fetchLego = async () => {
     document.getElementById('name').innerHTML = lego.fields.name;
     document.getElementById('series').innerHTML = lego.fields.year;
     document.getElementById('tag').innerHTML = lego.fields.tag;
+    // response.records.forEach((lego) => {
+    //     console.log(lego);
+    //     if (lego.fields.Image) {
+    //         console.log(lego.fields.Image[0].url)
+    //         const legoImage = document.getElementById('result-image');
+
+    //         // legoImage.src = lego.fields.Image[0].url;
+    //         legoImage.setAttribute('src', lego.fields.Image[0].url)
+
+    //         container.append(legoImage);
+    //     }
+
+    //     if (lego.fields.name) {
+    //         const nameEL = document.getElementById('result-name');
+    //         nameEL.innerHTML = lego.fields.name;
+    //         nameEL.classList.add = ('name')
+    //         container.append(nameEL);
+    //     }
+    // });
 };
 
-    fetchLego();
-    
-    const logoImage = document.getElementById('resul-image');
+fetchLego();
+
+const logoImage = document.getElementById('resul-image');
