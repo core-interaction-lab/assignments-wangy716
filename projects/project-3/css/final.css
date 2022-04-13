@@ -32,7 +32,6 @@ justify-content: center;
 
 .circle img{
     max-width: 100%;
-    /* max-height: 100%; */
     border-radius: 50%;
 }
 
@@ -85,7 +84,6 @@ a{
 
 }
 @keyframes animate {
-
     0%,
     40%,
     100% {
@@ -129,6 +127,11 @@ a{
 }
 .loader:hover span {
     font-size: 1em;
+}
+
+#image{
+    width: 150px;
+    height: 270px;
 }
 
 }

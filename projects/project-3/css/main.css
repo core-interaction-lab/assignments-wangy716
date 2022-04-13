@@ -49,3 +49,19 @@ img:hover{
     padding: 0.3%;
     background-color: #FFED00;
 }
+
+
+
+@media (max-width:813px){
+  .content{
+    margin-top: 67%;
+  }
+  .content p{
+    font-size: 18px ;
+  }
+
+  img{
+    max-width: 100px;
+    max-height: 90px;
+  }
+}
