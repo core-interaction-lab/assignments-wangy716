@@ -29,20 +29,20 @@ html {
 }
 
 .question{
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    border: 1px solid #C4C4C4;
-    border-radius: 13px;
-    background-color: #C4C4C4;
-    margin-right: 52%;
-    margin-left: 200px;
-    font-size: 24px;
-font-family: lores-12,sans-serif;
-font-weight: 400;
-font-style: normal;
-margin-bottom: 8%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border: 1px solid #C4C4C4;
+  border-radius: 13px;
+  background-color: #C4C4C4;
+  margin-right: 52%;
+  margin-left: 200px;
+  font-size: 24px;
+  font-family: lores-12,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 8%;
 }
 
 
