@@ -1,0 +1,58 @@
+.content{
+    font-family: lores-21-serif,sans-serif;
+    font-style: normal;
+}
+.header{
+    position: fixed;
+    margin: 2% ;
+    font-size: 48px;
+}
+
+.works{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact{
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    font-family: lores-21-serif,sans-serif;
+    font-style: normal;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact span {
+    position: relative;
+    font-size: 40px;
+    color: black;
+    display: inline-block;
+    animation: animate 1.3s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+    animation-play-state: paused;
+}
+
+.contact:hover span {
+    animation-play-state: running;
+    color: black;
+    cursor: pointer;
+    font-size: 48px;
+    background-color: black;
+    color: white;
+}
+
+@keyframes animate {
+    0%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-80px);
+    }
+}

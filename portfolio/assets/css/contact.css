@@ -1,0 +1,75 @@
+body{
+    font-family: lores-21-serif,sans-serif;
+    font-style: normal;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 9% 7%;
+}
+
+.left{
+    margin-right: 7%;
+}
+
+.frame{
+    width: 410px;
+    height: 540px;
+    border: 3px black solid;
+}
+
+.contact-info{
+    margin-top: 3%;
+    font-size: 18px;
+}
+
+.info-name{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+}
+
+.info p{
+    max-width: 640px;
+    font-size: 24px;
+}
+
+.artworks{
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+
+.artworks a{
+    text-decoration: none;
+    color: black;
+}
+.artworks span {
+    position: relative;
+    font-size: 40px;
+    color: black;
+    display: inline-block;
+    animation: animate 1.3s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+    animation-play-state: paused;
+}
+
+.artworks:hover span {
+    animation-play-state: running;
+    color: black;
+    cursor: pointer;
+    font-size: 48px;
+    background-color: black;
+    color: white;
+}
+@keyframes animate {
+    0%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-80px);
+    }
+}
