@@ -1,0 +1,108 @@
+
+body{
+    margin-top: 8%;
+}
+.header{
+    font-family: bungee,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 220px;
+    color: rgb(0, 0, 0);
+    border-color: none;
+    animation: color 1s infinite;
+}
+
+@keyframes color{
+  0%{
+color: black;
+  }
+  50%{
+color: whitesmoke;
+  }
+  100%{
+color: black; 
+  }
+}
+.vl {
+    position: relative;
+    right: 50%;
+    border-right: 2px solid black;
+    height: 1200px;
+}
+
+img{
+    width: 200px;
+    height: 100%;
+    padding-left: 43%;
+    padding-bottom: 10%;
+}
+
+
+.imgfilters img {
+  display: block;
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  padding: 60px 0 60px 0;
+}
+
+.imgfilters img:hover {
+  filter: none;
+  cursor: pointer;
+  animation: bigger 1s infinite;
+}
+
+
+@keyframes bigger{
+  0%{
+transform: scale(1.2);
+  }
+  50%{
+transform: scale(1.4);
+  }
+  100%{
+transform: scale(1.2); 
+  }
+}
+
+.ladym:hover:after {
+  content: url(https://i.postimg.cc/W1YGvnK5/2022-01-29-8-02-23.png);
+  position: absolute;
+  top: 2000px;
+  left: 30%;
+  transform: scale(0.3)
+}
+.burrow:hover:after {
+  content: url(https://i.postimg.cc/hG9tr49V/2022-01-29-8-02-48.png);
+  position: absolute;
+  top: 2250px;
+  right: 30%;
+  transform: scale(0.3)
+}
+.harbs:hover:after {
+  content: url(https://i.postimg.cc/Sx3CtGJC/2022-01-29-8-20-32.png);
+  position: absolute;
+  top: 2550px;
+  left: 30%;
+  transform: scale(0.3)
+}
+.rela{
+    font-family: bungee,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    border: 1px black;
+    font-size: 150px;
+}
+.rela:hover{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+    font-weight: 600;
+}
