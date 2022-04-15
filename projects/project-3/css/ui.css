@@ -159,6 +159,14 @@ img{
     margin-left: 2%;
     margin-top: 2%;
 }
+
+.info-box{
+    padding: 0;
+    border: 1px black solid;
+    background-color: white;
+    margin-right: 84%;
+    margin-bottom: 2%;
+}
 .welcome{
     margin: 0;
     margin-right: 70%;
@@ -183,7 +191,7 @@ img{
     width: 20vw;
     height: 20vw;
     background-color: #FFED00;
-    border: 1px yellow ;
+    border: 1px #FFED00 ;
     border-radius: 13px;
     padding: 0;
     margin-right: 2%;
@@ -192,6 +200,24 @@ img{
     justify-content: center;
     margin-bottom: 2%;
 }
+.answer:hover{
+    background-color: yellow;
+    animation: hovering 0.5s infinite alternate;
+  }
+  
+  
+  @keyframes hovering {
+    0%{
+      transform: scale(1.2)
+    };
+    50%{
+      transform: scale(1.7)
+    };
+    100%{
+      transform: scale(1.2)
+    };
+  }
+    
 .result{
     width: 400px;
     height: 400px;
@@ -205,10 +231,3 @@ img{
     margin-bottom: 2%;
 }
 
-.info-box{
-    padding: 0;
-    border: 1px black solid;
-    background-color: white;
-    margin-right: 84%;
-    margin-bottom: 2%;
-}
