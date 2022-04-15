@@ -71,7 +71,7 @@ margin-left: 5%;
 }
 .submenu a{
     text-decoration: none;
-    color: white;
+    color: hsl(0, 100%, 50%);
 }
 
 .foot p{
@@ -108,13 +108,14 @@ body{
     margin-bottom: 3%;
 }
 .general{
+    font-size: 20px;
     color: white;
 }
 .submenu{
-    border: white 1px solid;
+    border: hsl(0, 100%, 50%) 1px solid;
 }
 .submenu a{
-    color: white;
+    color: hsl(0, 100%, 50%);
 }
 .foot p {
     color: gainsboro;
