@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.submenu{
+    position:absolute;
+    position: fixed;
+    top: 50%;
+    right: 0;
+}
+
+.submenu ul{
+    list-style-type: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.submenu a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    font-size: 180px;
+    font-family: lores-12,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-bottom: dashed #FFED00 20px;
+    background-color: black;
+    color: #FFED00;
+    padding-top: 3%;
+}
+
+.project{
+    font-size: 50px;
+    padding-top: 2%;
+    padding-bottom: 6%;
+}
+.project a{
+    color: gray;
+}
+.project a:hover{
+    color: white;
+}
+
+.name{
+    font-size: 32px;
+    font-family: lores-12,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    padding-left: 2%;
+}
+
+.inside-name{
+    font-size: 20px;
+    font-family: lores-12,sans-serif;
+    font-weight: 400;
+}
+
+#color{
+    display: flex;
+    flex-direction: column;
+}
+.squares{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+
+}
+.square-1{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border: 3px black solid;
+    margin-right: 2%;
+
+}
+.square-2{
+    width: 80px;
+    height: 80px;
+    background-color:#FFED00;
+    border: 3px black solid;
+    margin-right: 2%;
+}
+.square-3{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border: 3px black solid;
+    margin-right: 2%;
+}
+.square-4{
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+    border: 3px black solid;
+    margin-right: 2%;
+}
+
+.square-5{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border: 3px black solid;
+    margin-right: 2%;
+}
+
+.size{
+    font-family: lores-12,sans-serif;
+    margin: 2%;
+}
+.liushisi{
+    font-size: 64px;
+}
+.wushi{
+    font-size: 50px;
+}
+.sanshier{
+    font-size: 32px;
+}
+.ershisi{
+    font-size: 24px;
+}
+.ershi{
+    font-size: 20px;
+}
+.shijiu{
+    font-size: 19px;
+}
+.shiba{
+    font-size: 18px;
+}
+.shiliu{
+    font-size: 16px;
+}
+.shisi{
+    font-size: 14px;
+}
+.ba{
+    font-size: 8px;
+}
+.inside{
+    margin: 2%;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.inside-text{
+    font-size: 32px;
+    font-family: lores-12,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.welcome{
+    margin: 0;
+    margin-right: 70%;
+    border-radius: 18px;
+    padding: 0.3%;
+    background-color: #FFED00;
+    margin-bottom: 2%;
+}
+.question{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: 1px solid #C4C4C4;
+    border-radius: 13px;
+    background-color: #C4C4C4;
+    margin-right: 65%;
+    margin-bottom: 2%;
+  }
+
+.answer{
+    width: 20vw;
+    height: 20vw;
+    background-color: #FFED00;
+    border: 1px yellow ;
+    border-radius: 13px;
+    padding: 0;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.result{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    filter: drop-shadow(0px 4px 4px rgb(182, 180, 180));
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.info-box{
+    padding: 0;
+    border: 1px black solid;
+    background-color: white;
+    margin-right: 84%;
+    margin-bottom: 2%;
+}
