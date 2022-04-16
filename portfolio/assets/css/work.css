@@ -7,6 +7,14 @@
     margin: 2% ;
     font-size: 48px;
 }
+#select{
+    font-family: lores-21-serif,sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    border: 3px black solid;
+}
+
+
 
 .works{
     display: flex;
