@@ -2,7 +2,6 @@
 .content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -10,6 +9,7 @@
 .left{
     display: flex;
     flex-direction: column;
+    margin-right: 15%;
 }
 
 .right{
@@ -17,9 +17,12 @@
     flex-direction: column;
 }
 
-.square{
-    width: 250px;
+.size{
+    width: 310px;
     height: 200px;
-    border: 3px black solid;
-    margin-top: 20%;
+    margin-top: 30%;
+}
+
+video{
+    max-width: 100%;
 }
