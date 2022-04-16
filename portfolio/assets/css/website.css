@@ -18,9 +18,11 @@
 }
 
 .size{
-    width: 310px;
-    height: 200px;
-    margin-top: 30%;
+    width: 410px;
+    height: 260px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
 }
 
 video{
