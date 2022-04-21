@@ -44,7 +44,7 @@ const fetchMovies = async()=>{
 
 
        
-        articleEL.append(titleEL,genreEL,imdbURLEL,releaseDateEL,descriptionEl,posterEl);
+        articleEL.append(titleEL,genreEL,imdbURLEL,posterEl,releaseDateEL,descriptionEl);
 
         /* titleEL.innerHTML = "tiitle";*/
         moviesContainer.appendChild(articleEL);

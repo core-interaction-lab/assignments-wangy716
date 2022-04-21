@@ -1,0 +1,32 @@
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.size{
+    width: 400px;
+    height: 510px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 3px 3px 3px rgb(146, 145, 145);
+}
