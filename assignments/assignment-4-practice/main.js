@@ -33,27 +33,6 @@ const albumContainer = document.getElementById("album-container");
             const imgEL = document.createElement("img");
             imgEL.setAttribute('src', item.image.medium);
             albumContainer.append(imgEL);
-
-            const container = document.createElement('article');
-            const nameEL = document.createElement("h2");
-            const rateEL = document.createElement("h3");
-            const summaryEL = document.createElement("div");
-            const urlEL = document.createElement("a");
-
-            nameEL.innerHTML = item.name;
-            nameEL.classList.add("name");
-
-            rateEL.innerHTML = item.rating.average;
-            rateEL.classList.add("rate");
-
-            summaryEL.innerHTML = htmlDecode(item.summary);
-            summaryEL.classList.add("summary");
-            
-            urlEL.innerHTML = item.url;
-            urlEL.classList.add("url");
-
-            container.append(nameEL,rateEL,summaryEL,urlEL);
-            albumContainer.append(container);
         });
     };
 
@@ -86,9 +65,9 @@ const albumContainer = document.getElementById("album-container");
 
             //console.log(response);
             //console.log(response.items);
-            //buildAlbums(response1.items);   //1 json
+            buildAlbums(response1.items);   //1 json
             buildEpisodes(response2)        //2 json
-            //buildStories(response3.data.children) //3 json
+            buildStories(response3.data.children) //3 json
     }
     //fetchContent('https://interactionlab.space/data/assignment-4-3.json');
 
