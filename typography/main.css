@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.stripe{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    animation: heigezi 3s infinite;
+}
+
+.stripee{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    font-size: 60px;
+    animation: baigezi 3s infinite;
+}
+img{
+    max-width: 6%;
+    max-height: 6%;
+margin-left: 47%;
+
+}
+
+p{
+    padding: 0;
+    margin: 0;
+
+}
+
+.women{
+padding-top: 1%;   
+animation: women 3s infinite;
+}
+
+.helpp{
+    padding-top: 1%;   
+    animation: helpp 3s infinite;
+}
+
+@keyframes baigezi {
+0%{
+    background-color:black;
+}
+50%{
+    background-color: white;
+}
+100%{
+    background-color: black;
+}
+}
+
+@keyframes heigezi {
+    0%{
+        background-color:white;
+    }
+    50%{
+        background-color: black;
+    }
+    100%{
+        background-color: white;
+    }
+    }
+
+    @keyframes helpp {
+        0%{
+            color:white;
+        }
+        50%{
+            color: black;
+        }
+        100%{
+           color: white;
+        }
+        }
+
+        @keyframes women {
+            0%{
+                color:black;
+            }
+            50%{
+               color: white;
+            }
+            100%{
+                color: black;
+            }
+            }
+    
+.title{
+    margin-top: 5%;
+ text-align: center;
+}
+.info{
+    font-family: roboto;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 24px;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.number{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.number h1{
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
