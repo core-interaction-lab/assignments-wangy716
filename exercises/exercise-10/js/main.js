@@ -12,14 +12,38 @@ const setTodoItems = items => {
 
 const addTodoItem = item => {
     const todoItemsCopy = state.todoItems.slice();
-    todoItemsCopy.push(item);
+    todoItemsCopy.push(item); //different line
     setTodoItems(todoItemsCopy);
 }
 
-const buildTodoItem = item => {
+const removeTodoItem = index => {
+    const todoItemsCopy = state.todoItems.slice();
+    todoItemsCopy.splice(index,1); //different line
+    setTodoItems(todoItemsCopy);
+}
+
+const buildTodoItem = (item,index) => {
     const todoEl = document.createElement('article');
+    const textEl = document.createElement('p');
+    const deleteBtn = document.createElement('button');
+
+    deleteBtn.innerHTML = 'Delete';
+
+    deleteBtn.addEventListener('click',evt =>{
+        removeTodoItem(index);
+        buildTodoItems(state.todoItems);
+    })
+
     todoEl.innerHTML = item;
+
+    todoEl.append(textEl, deleteBtn)
     return todoEl;
+};
+
+const buildTodoItems = items => {
+    todoContainer.innerHTML = '';
+    const todoItemEls = items.map(buildTodoItem);
+    todoContainer.append(...todoItemEls);
 };
 
 const main = () => {
@@ -27,9 +51,7 @@ const main = () => {
         const todoValue = addTextarea.value;
         if(todoValue.length > 0){
             addTodoItem(todoValue);
-            todoContainer.innerHTML = '';
-            const todoItemEls = state.todoItems.map(buildTodoItem);
-            todoContainer.append(...todoItemEls);
+            buildTodoItems(state.todoItems);
         }
     });
 };
