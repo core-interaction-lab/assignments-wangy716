@@ -11,7 +11,7 @@ selectEl.addEventListener('change', evt => {
 });
 
 	var x;
-	var person=prompt("请输入你的名字","your name");
+	var person=prompt("WHO IS THERE?","enter your name");
 	if (person!=null && person!=""){
 	    x="Hiiii " + person + "! Welcome to E's Site!";
 	    document.getElementById("demo").innerHTML=x;
