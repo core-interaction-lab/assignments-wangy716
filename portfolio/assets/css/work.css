@@ -50,6 +50,15 @@ body {
     overflow-y: scroll;
 }
 
+#me{
+    max-width: 200px;
+    max-height: 200px;
+    position: absolute;
+    right: 3%;
+    bottom: 4%;
+
+}
+
 .contact{
     position: absolute;
     bottom: 2%;
