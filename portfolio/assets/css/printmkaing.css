@@ -31,6 +31,14 @@ img{
     box-shadow: 3px 3px 3px rgb(146, 145, 145);
 }
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all .2s ease-in-out; 
+}
+
 .loadbar
 {
      width:25px;

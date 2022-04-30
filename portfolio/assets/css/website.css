@@ -31,7 +31,8 @@ body{
 
 video{
     max-width: 100%;
-    filter:invert();
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
     transition: all .2s ease-in-out; 
 }
 
