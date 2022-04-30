@@ -1,0 +1,49 @@
+body{
+    font-family: lores-21-serif,sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.size{
+    width: 410px;
+    height: 260px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    filter:invert();
+    transition: all .2s ease-in-out; 
+}
+
+img:hover{
+    transform: scale(1.2); 
+    filter: none;
+    }
+
+@media (max-width:813px){
+    .content{
+        flex-direction: column;
+    }
+}
