@@ -7,16 +7,27 @@
     <body>
         <section class="content">
           <header class="project-name">
-              Input/Output
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        Input
+                    </div>
+                    <div class="back" style="background-color: black; color: white;">
+                        Output
+                    </div>
+                </div>
+            </div>
           </header>
           <article class="info">
-            I got inspiration from the 16 MBTI personality test for this project. I made up a series of questions that can determine what color people like, and then through random javascript selection within that color range, define each user a specific lego figure representation. The test is designed for elastic collection, which it will work no matter how many lego figures in the airtable. (src: Jessie Kil's 100 lego figure airtable) - Yi Wang<BR><BR><br>
+           For this project, I created a modern butterfly generator. Users could change every part of the butterfly's shape, size, and colors by draging attribute bars to have a personalized butterfly as a outcome. - Yi Wang<BR><BR><br>
         </div>
         
-            <a href="main.html"><div class="login">FREE Lego Personality Test</div></a>
-        <footer class="ui">
-            <a href="ui-kit.html">UI KIT PAGE</a>
-        </footer>
+            <a href="main.html"><div class="login">Butterfly Generator</div></a>
         </section>
         
+
+        <script>
+        $(".box").hover(function(event){
+            $(this).toggleClass("flipped");
+        })</script>
 </html>
