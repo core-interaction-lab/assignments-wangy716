@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .title{
+      font-family: Arpon;
+      font-size: 72px;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      margin-top: 3%;
+
+
+  }
+
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .control {
+    width: 20%;
+    text-align: center;
+    margin-top: 75px;
+    height: 80%;
+  }
+
+  .control .title {
+    font-size: 26px;
+    margin: 20px;
+  }
+
+  .control>div {
+    margin-bottom: 30px;
+  }
+
+  .name {
+    position: absolute;
+    bottom: 15%;
+    left: 45%;
+
+  }
+
+  .name input {
+    border: none;
+    border-bottom: solid;
+    outline: none;
+  }
+
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 150px;
+    height: 0.5px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    background-image: linear-gradient(black,black);
+    background-color:none;
+    border:1px solid black;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: black;
+    cursor: ew-resize;
+  }
+  
+  input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+
+  @font-face {
+    font-family: 'Arpon';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arpon'), local('Arpon-Font-Regular'), url(assets/path/Awesome-Font-Regular) format('woff');
+  }

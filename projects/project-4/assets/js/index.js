@@ -135,9 +135,9 @@ document.querySelector("#headSizeId").addEventListener('input', function (evt) {
         ghead2.setAttribute("y", 58 - headSize / 2);
     } else if (headType == 3) {
         let x1 = 105
-        let y1 = 57 - headSize
+        let y1 = 27 - headSize
         let x2 = 115 + headSize
-        let y2 = 75 + headSize
+        let y2 = 45 + headSize
         let x3 = 94 - headSize
         let y3 = y2
         ghead3.setAttribute('d', `M ${x1},${y1} L ${x2},${y2} L ${x3},${y3} Z`)
@@ -181,25 +181,25 @@ document.querySelector("#upperWingSizeId").addEventListener('input', function (e
         gUpperLeftWing2.setAttribute("width", 65 + upperWingSize);
         gUpperLeftWing2.setAttribute("height", 65 + upperWingSize);
         gUpperLeftWing2.setAttribute("x", 21 - upperWingSize / 2);
-        gUpperLeftWing2.setAttribute("y", 66 - upperWingSize / 2);
+        gUpperLeftWing2.setAttribute("y", 36 - upperWingSize / 2);
 
         gUpperrightWing2.setAttribute("width", 65 + upperWingSize);
         gUpperrightWing2.setAttribute("height", 65 + upperWingSize);
         gUpperrightWing2.setAttribute("x", 123 - upperWingSize / 2);
-        gUpperrightWing2.setAttribute("y", 64 - upperWingSize / 2);
+        gUpperrightWing2.setAttribute("y", 34 - upperWingSize / 2);
     } else if (upperWingType == 3) {
         let x1 = 56
-        let y1 = 62 - upperWingSize
+        let y1 = 32 - upperWingSize
         let x2 = 21 - upperWingSize
-        let y2 = 111 + upperWingSize
+        let y2 = 81 + upperWingSize
         let x3 = 87 + upperWingSize
         let y3 = y2
         gUpperLeftWing3.setAttribute('d', `M ${x1},${y1} ${x2},${y2} ${x3},${y3} Z`)
 
         x1 = 158
-        y1 = 64 - upperWingSize
+        y1 = 34 - upperWingSize
         x2 = 123 - upperWingSize
-        y2 = 113 + upperWingSize
+        y2 = 83 + upperWingSize
         x3 = 192 + upperWingSize
         y3 = y2
         gUpperrightWing3.setAttribute('d', `M ${x1},${y1} ${x2},${y2} ${x3},${y3} Z`)
@@ -230,15 +230,15 @@ document.querySelector("#bodySizeId").addEventListener('input', function (evt) {
         gBody1.setAttribute("width", 12 + bodySize);
         gBody1.setAttribute("height", 82 + bodySize);
         gBody1.setAttribute("x", 98 - bodySize / 2);
-        gBody1.setAttribute("y", 88 - bodySize / 2);
+        gBody1.setAttribute("y", 58 - bodySize / 2);
     } else if (bodyType == 2) {
         gBody2.setAttribute("rx", 6 + bodySize);
         gBody2.setAttribute("ry", 41 + bodySize);
     } else if (bodyType == 3) {
         let x1 = 104
-        let y1 = 88 - bodySize
+        let y1 = 58 - bodySize
         let x2 = 110 + bodySize
-        let y2 = 170 + bodySize
+        let y2 = 140 + bodySize
         let x3 = 98 - bodySize
         let y3 = y2
         gBody3.setAttribute('d', `M ${x1},${y1} L ${x2},${y2} L ${x3},${y3} Z`)
@@ -278,25 +278,25 @@ document.querySelector("#lowerWingSizeId").addEventListener('input', function (e
         gLowerLeftWing2.setAttribute("width", 28 + lowerWingSize);
         gLowerLeftWing2.setAttribute("height", 28 + lowerWingSize);
         gLowerLeftWing2.setAttribute("x", 57 - lowerWingSize / 2);
-        gLowerLeftWing2.setAttribute("y", 123 - lowerWingSize / 2);
+        gLowerLeftWing2.setAttribute("y", 93 - lowerWingSize / 2);
 
         gLowerRightWing2.setAttribute("width", 28 + lowerWingSize);
         gLowerRightWing2.setAttribute("height", 28 + lowerWingSize);
         gLowerRightWing2.setAttribute("x", 125 - lowerWingSize / 2);
-        gLowerRightWing2.setAttribute("y", 123 - lowerWingSize / 2);
+        gLowerRightWing2.setAttribute("y", 93 - lowerWingSize / 2);
     } else if (lowerWingType == 3) {
         let x1 = 71
-        let y1 = 117 - lowerWingSize
+        let y1 = 87 - lowerWingSize
         let x2 = 88 + lowerWingSize
-        let y2 = 148 + lowerWingSize
+        let y2 = 118 + lowerWingSize
         let x3 = 54 - lowerWingSize
         let y3 = y2
         gLowerLeftWing3.setAttribute('d', `M ${x1},${y1} ${x2},${y2} ${x3},${y3} Z`)
 
         x1 = 139
-        y1 = 117 - lowerWingSize
+        y1 = 87 - lowerWingSize
         x2 = 156 + lowerWingSize
-        y2 = 148 + lowerWingSize
+        y2 = 118 + lowerWingSize
         x3 = 122 - lowerWingSize
         y3 = y2
         gLowerRightWing3.setAttribute('d', `M ${x1},${y1} ${x2},${y2} ${x3},${y3} Z`)
@@ -387,45 +387,45 @@ function createRect(id, x, y, w, h, color) {
 
 
 function drawPatternShape() {
-    createTriangle('g_pattern_tri_1', 45, 80, 10 + patternSize, '#fff')
-    createCircle('g_pattern_circle_1', 40, 80, 8 + patternSize, '#fff')
-    createRect('g_pattern_rect_1', 40, 80, 10 + patternSize, 10 + patternSize, '#fff')
+    createTriangle('g_pattern_tri_1', 45, 50, 10 + patternSize, '#fff')
+    createCircle('g_pattern_circle_1', 40, 50, 8 + patternSize, '#fff')
+    createRect('g_pattern_rect_1', 40, 50, 10 + patternSize, 10 + patternSize, '#fff')
 
-    createTriangle('g_pattern_tri_2', 40, 106, 10 + patternSize, '#fff')
-    createCircle('g_pattern_circle_2', 45, 106, 8 + patternSize, '#fff')
-    createRect('g_pattern_rect_2', 45, 106, 10 + patternSize, 10 + patternSize, '#fff')
+    createTriangle('g_pattern_tri_2', 40, 76, 10 + patternSize, '#fff')
+    createCircle('g_pattern_circle_2', 45, 76, 8 + patternSize, '#fff')
+    createRect('g_pattern_rect_2', 45, 76, 10 + patternSize, 10 + patternSize, '#fff')
 
-    createTriangle('g_pattern_tri_3', 65, 97, 10 + patternSize, '#fff')
-    createCircle('g_pattern_circle_3', 70, 97, 8 + patternSize, '#fff')
-    createRect('g_pattern_rect_3', 70, 97, 10 + patternSize, 10 + patternSize, '#fff')
+    createTriangle('g_pattern_tri_3', 65, 67, 10 + patternSize, '#fff')
+    createCircle('g_pattern_circle_3', 70, 67, 8 + patternSize, '#fff')
+    createRect('g_pattern_rect_3', 70, 67, 10 + patternSize, 10 + patternSize, '#fff')
 
-    createTriangle('g_pattern_tri_4', 152, 80, 10 + patternSize, '#fff')
-    createCircle('g_pattern_circle_4', 142, 80, 8 + patternSize, '#fff')
-    createRect('g_pattern_rect_4', 142, 80, 10 + patternSize, 10 + patternSize, '#fff')
+    createTriangle('g_pattern_tri_4', 152, 50, 10 + patternSize, '#fff')
+    createCircle('g_pattern_circle_4', 142, 50, 8 + patternSize, '#fff')
+    createRect('g_pattern_rect_4', 142, 50, 10 + patternSize, 10 + patternSize, '#fff')
 
-    createTriangle('g_pattern_tri_5', 147, 106, 10 + patternSize, '#fff')
-    createCircle('g_pattern_circle_5', 147, 106, 8 + patternSize, '#fff')
-    createRect('g_pattern_rect_5', 147, 106, 10 + patternSize, 10 + patternSize, '#fff')
+    createTriangle('g_pattern_tri_5', 147, 76, 10 + patternSize, '#fff')
+    createCircle('g_pattern_circle_5', 147, 76, 8 + patternSize, '#fff')
+    createRect('g_pattern_rect_5', 147, 76, 10 + patternSize, 10 + patternSize, '#fff')
 
-    createTriangle('g_pattern_tri_6', 172, 97, 10 + patternSize, '#fff')
-    createCircle('g_pattern_circle_6', 172, 97, 8 + patternSize, '#fff')
-    createRect('g_pattern_rect_6', 172, 97, 10 + patternSize, 10 + patternSize, '#fff')
+    createTriangle('g_pattern_tri_6', 172, 67, 10 + patternSize, '#fff')
+    createCircle('g_pattern_circle_6', 172, 67, 8 + patternSize, '#fff')
+    createRect('g_pattern_rect_6', 172, 67, 10 + patternSize, 10 + patternSize, '#fff')
 
-    createTriangle('g_pattern_tri_7', 67, 132, 6 + patternSize, '#fff')
-    createCircle('g_pattern_circle_7', 61, 132, 5 + patternSize, '#fff')
-    createRect('g_pattern_rect_7', 61, 132, 7 + patternSize, 7 + patternSize, '#fff')
+    createTriangle('g_pattern_tri_7', 67, 102, 6 + patternSize, '#fff')
+    createCircle('g_pattern_circle_7', 61, 102, 5 + patternSize, '#fff')
+    createRect('g_pattern_rect_7', 61, 102, 7 + patternSize, 7 + patternSize, '#fff')
 
-    createTriangle('g_pattern_tri_8', 75, 142, 6 + patternSize, '#fff')
-    createCircle('g_pattern_circle_8', 78, 142, 5 + patternSize, '#fff')
-    createRect('g_pattern_rect_8', 72, 138, 7 + patternSize, 7 + patternSize, '#fff')
+    createTriangle('g_pattern_tri_8', 75, 112, 6 + patternSize, '#fff')
+    createCircle('g_pattern_circle_8', 78, 112, 5 + patternSize, '#fff')
+    createRect('g_pattern_rect_8', 72, 108, 7 + patternSize, 7 + patternSize, '#fff')
 
-    createTriangle('g_pattern_tri_9', 135, 132, 6 + patternSize, '#fff')
-    createCircle('g_pattern_circle_9', 129, 132, 5 + patternSize, '#fff')
-    createRect('g_pattern_rect_9', 129, 132, 7 + patternSize, 7 + patternSize, '#fff')
+    createTriangle('g_pattern_tri_9', 135, 102, 6 + patternSize, '#fff')
+    createCircle('g_pattern_circle_9', 129, 102, 5 + patternSize, '#fff')
+    createRect('g_pattern_rect_9', 129, 102, 7 + patternSize, 7 + patternSize, '#fff')
 
-    createTriangle('g_pattern_tri_10', 146, 142, 6 + patternSize, '#fff')
-    createCircle('g_pattern_circle_10', 146, 142, 5 + patternSize, '#fff')
-    createRect('g_pattern_rect_10', 140, 138, 7 + patternSize, 7 + patternSize, '#fff')
+    createTriangle('g_pattern_tri_10', 146, 112, 6 + patternSize, '#fff')
+    createCircle('g_pattern_circle_10', 146, 112, 5 + patternSize, '#fff')
+    createRect('g_pattern_rect_10', 140, 108, 7 + patternSize, 7 + patternSize, '#fff')
 }
 
 // 点击pattern shape换颜色

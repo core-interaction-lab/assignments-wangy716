@@ -4,53 +4,21 @@
 
 <head>
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      display: flex;
-      justify-content: space-around;
-    }
-
-    .control {
-      width: 20%;
-      text-align: center;
-      margin-top: 100px;
-      height: 100%;
-    }
-
-    .control .title {
-      font-size: 26px;
-      margin: 20px;
-    }
-
-    .control>div {
-      margin-bottom: 30px;
-    }
-
-    .name {
-      text-align: center;
-    }
-
-    .name input {
-      border: none;
-      border-bottom: solid;
-      outline: none;
-    }
-  </style>
+   <link rel="stylesheet" href="assets/css/main.css">
 
 </head>
 
 <body>
+
+  <header class="title">
+    Le Papillon
+  </header>
   <div class="container">
 
     <div class="control">
       <div class="title">Shape</div>
       <div>
-        <input type="range" min="1" max="3" value="1" id="headControlId">
+        <input class="drag" type="range" min="1" max="3" value="1" id="headControlId">
         <div>head</div>
       </div>
       <div>
@@ -76,40 +44,40 @@
         id="svg34">
 
         <g id="layer1">
-          <rect id="g_body1" style="fill:#fff;stroke-width:0.5px;stroke:black;" width="12" height="82" x="98" y="88" />
-          <ellipse id="g_body2" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" cx="104" cy="129" rx="6" ry="41" />
-          <path id="g_body3" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" d="M 104,88 110,170 98,170 Z" />
+          <rect id="g_body1" style="fill:#fff;stroke-width:0.5px;stroke:black;" width="12" height="82" x="98" y="58" />
+          <ellipse id="g_body2" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" cx="104" cy="99" rx="6" ry="41" />
+          <path id="g_body3" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" d="M 104,58 110,140 98,140 Z" />
 
 
-          <circle id="g_head1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="104" cy="66" r="9" />
-          <rect id="g_head2" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" width="18" height="18" x="95" y="58" />
-          <path id="g_head3" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" d="M 105,57 115,75 94,75 Z" />
+          <circle id="g_head1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="104" cy="36" r="9" />
+          <rect id="g_head2" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" width="18" height="18" x="95" y="28" />
+          <path id="g_head3" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" d="M 105,17 115,45 94,45 Z" />
 
-          <circle id="g_upper_left_wing1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="50" cy="97" r="35" />
+          <circle id="g_upper_left_wing1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="50" cy="67" r="35" />
           <rect id="g_upper_left_wing2" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" width="65" height="65" x="21"
-            y="66" />
+            y="36" />
           <path id="g_upper_left_wing3" style="fill:#fff;display:none;stroke:#000000;stroke-width:0.5px;stroke:black;"
-            d="M 56,62 21,111 87,113 Z" />
+            d="M 56,32 21,81 87,83 Z" />
 
-          <circle id="g_upper_right_wing1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="157" cy="97" r="35" />
+          <circle id="g_upper_right_wing1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="157" cy="67" r="35" />
           <rect id="g_upper_right_wing2" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" width="65" height="65" x="123"
-            y="64" />
+            y="34" />
           <path id="g_upper_right_wing3" style="fill:#fff;display:none;stroke:#000000;stroke-width:0.5px;stroke:black;"
-            d="M 158,64 123,113 192,113 Z" />
+            d="M 158,34 123,83 192,83 Z" />
 
 
-          <circle id="g_lower_left_wing1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="68" cy="137" r="20" />
+          <circle id="g_lower_left_wing1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="68" cy="107" r="20" />
           <rect id="g_lower_left_wing2" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" width="28" height="28" x="57"
-            y="123" />
+            y="93" />
           <path id="g_lower_left_wing3" style="fill:#fff;display:none;stroke:#000000;stroke-width:0.5px;stroke:black;"
-            d="M 71,117 88,148 54,148 Z" />
+            d="M 71,87 88,118 54,118 Z" />
 
 
-          <circle id="g_lower_right_wing1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="139" cy="137" r="20" />
+          <circle id="g_lower_right_wing1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="139" cy="107" r="20" />
           <rect id="g_lower_right_wing2" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" width="28" height="28" x="125"
-            y="123" />
+            y="93" />
           <path id="g_lower_right_wing3" style="fill:#fff;display:none;stroke:#000000;stroke-width:0.5px;stroke:black;"
-            d="M 139,117 156,148 122,148 Z" />
+            d="M 139,87 156,118 122,118 Z" />
         </g>
 
         <g id="layer2">
@@ -119,12 +87,12 @@
       </svg>
 
       <div class="name">
-        <input type="text" placeholder="Input name...">
+        <input type="text" placeholder="NAME IT" style="text-align: center; font-family: w;">
       </div>
     </div>
 
     <div class="control">
-      <div class="title">attributes</div>
+      <div class="title">Size</div>
       <div>
         <input type="range" min="1" max="10" value="1" id="headSizeId">
         <div>head</div>
