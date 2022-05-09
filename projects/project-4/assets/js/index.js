@@ -132,7 +132,7 @@ document.querySelector("#headSizeId").addEventListener('input', function (evt) {
         ghead2.setAttribute("width", 18 + headSize);
         ghead2.setAttribute("height", 18 + headSize);
         ghead2.setAttribute("x", 95 - headSize / 2);
-        ghead2.setAttribute("y", 58 - headSize / 2);
+        ghead2.setAttribute("y", 28 - headSize / 2);
     } else if (headType == 3) {
         let x1 = 105
         let y1 = 27 - headSize
