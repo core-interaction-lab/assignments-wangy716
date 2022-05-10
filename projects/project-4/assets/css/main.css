@@ -35,7 +35,7 @@
   .name {
     position: absolute;
     bottom: 15%;
-    left: 43%;
+    left: 44%;
 
   }
 
@@ -48,7 +48,7 @@
   input[type="range"] {
     -webkit-appearance: none;
     width: 150px;
-    height: 0.5px;
+    height: 0.25px;
     background: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
     background-image: linear-gradient(black,black);
