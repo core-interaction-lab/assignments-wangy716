@@ -35,7 +35,7 @@
   .name {
     position: absolute;
     bottom: 15%;
-    left: 45%;
+    left: 43%;
 
   }
 
@@ -78,3 +78,8 @@
     font-weight: 400;
     src: local('Arpon'), local('Arpon-Font-Regular'), url(assets/path/Awesome-Font-Regular) format('woff');
   }
+
+  .subtitle{
+    font-family: 'Michroma', sans-serif;
+    color: rgba(0, 0, 0, 0.306);
+    }

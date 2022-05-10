@@ -3,8 +3,10 @@
 <html lang="en">
 
 <head>
-
    <link rel="stylesheet" href="assets/css/main.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
 
 </head>
 
@@ -19,23 +21,23 @@
       <div class="title">Shape</div>
       <div>
         <input class="drag" type="range" min="1" max="3" value="1" id="headControlId">
-        <div>head</div>
+        <div class="subtitle">head</div>
       </div>
       <div>
         <input type="range" min="1" max="3" value="1" id="bodyControlId">
-        <div>body</div>
+        <div class="subtitle">body</div>
       </div>
       <div>
         <input type="range" min="1" max="3" value="1" id="upperWingControlId">
-        <div>upper wing</div>
+        <div class="subtitle">upper wing</div>
       </div>
       <div>
         <input type="range" min="1" max="3" value="1" id="lowerWingControlId">
-        <div>lower wing</div>
+        <div class="subtitle">lower wing</div>
       </div>
       <div>
         <input type="range" min="1" max="3" value="1" id="patternControlId">
-        <div>pattern</div>
+        <div class="subtitle">pattern</div>
       </div>
     </div>
 
@@ -51,7 +53,7 @@
 
           <circle id="g_head1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="104" cy="36" r="9" />
           <rect id="g_head2" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" width="18" height="18" x="95" y="28" />
-          <path id="g_head3" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" d="M 105,17 115,45 94,45 Z" />
+          <path id="g_head3" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" d="M 105,26 116,46 93,46 Z" />
 
           <circle id="g_upper_left_wing1" style="fill:#fff;stroke-width:0.5px;stroke:black;" cx="50" cy="67" r="35" />
           <rect id="g_upper_left_wing2" style="fill:#fff;display:none;stroke-width:0.5px;stroke:black;" width="65" height="65" x="21"
@@ -87,7 +89,7 @@
       </svg>
 
       <div class="name">
-        <input type="text" placeholder="NAME IT" style="text-align: center; font-family: w;">
+        <input type="text" placeholder="NAME IT" style="text-align: center; font-family: michroma;">
       </div>
     </div>
 
@@ -95,27 +97,27 @@
       <div class="title">Size</div>
       <div>
         <input type="range" min="1" max="10" value="1" id="headSizeId">
-        <div>head</div>
+        <div class="subtitle">head</div>
       </div>
       <div>
         <input type="range" min="1" max="10" value="1" id="bodySizeId">
-        <div>body</div>
+        <div class="subtitle">body</div>
       </div>
       <div>
         <input type="range" min="1" max="10" value="1" id="upperWingSizeId">
-        <div>upper wing</div>
+        <div class="subtitle">upper wing</div>
       </div>
       <div>
         <input type="range" min="1" max="10" value="1" id="lowerWingSizeId">
-        <div>lower wing</div>
+        <div class="subtitle">lower wing</div>
       </div>
       <div>
         <input type="range" min="1" max="10" value="1" id="patternSizeId">
-        <div>pattern</div>
+        <div class="subtitle">pattern</div>
       </div>
       <div>
         <input type="color" onchange="onChangeColor(event)" id="colorId">
-        <div>color</div>
+        <div class="subtitle">color</div>
       </div>
     </div>
 
