@@ -76,7 +76,7 @@
     font-family: 'Arpon';
     font-style: normal;
     font-weight: 400;
-    src: local('Arpon'), local('Arpon-Font-Regular'), url(assets/path/Awesome-Font-Regular) format('woff');
+    src: local('Arpon'), local('Arpon-Font-Regular'), url(../path/Arpon-Display.woff) format('woff');
   }
 
   .subtitle{
