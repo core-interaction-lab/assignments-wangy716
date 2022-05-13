@@ -448,3 +448,37 @@ function bindPatternClick() {
 }
 
 updatePattern()
+
+const canvasEl = document.getElementById('my-canvas');
+const imageContainer = document.getElementById('final-image-container');
+const svgWrapperEl = document.getElementById('svg-wrapper');
+const createImageBtn = document.getElementById('create-image-btn');
+const filenameInput = document.getElementById('filename-input');
+const nameForm = document.getElementById('name-form');
+
+nameForm.addEventListener('submit', e => {
+    e.preventDefault();
+    svgToPng();
+})
+
+// createImageBtn.addEventListener('click', () => {
+//     svgToPng();
+// })
+
+const svgToPng = async () => {
+    const ctx = canvasEl.getContext('2d');
+    const v = canvg.Canvg.fromString(ctx, svgWrapperEl.innerHTML);
+    v.start();
+
+    const anchorEl = document.createElement('a');
+    anchorEl.href = canvasEl.toDataURL();
+    anchorEl.download = `${filenameInput.value}.png`;
+    anchorEl.innerHTML = 'Download'
+    anchorEl.click();
+    imageContainer.innerHTML = '';
+    //imageContainer.append(anchorEl);
+}
+
+window.onload = () => {
+    //svgToPng();
+}

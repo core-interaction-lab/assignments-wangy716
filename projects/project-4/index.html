@@ -40,8 +40,9 @@
         <div class="subtitle">pattern</div>
       </div>
     </div>
-
+<canvas id="my-canvas"></canvas>
     <div>
+      <div id="svg-wrapper">
       <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="210mm" height="700px" viewBox="0 0 210 190"
         id="svg34">
 
@@ -86,9 +87,18 @@
         </g>
 
       </svg>
+    </div>
+
+    
 
       <div class="name">
-        <input type="text" placeholder="NAME IT" style="text-align: center; font-family: michroma;">
+        <form id="name-form">
+          <input id="filename-input" type="text" placeholder="NAME IT" style="text-align: center; font-family: michroma;" required>
+          <div class="button-wrapper" style="text-align: center; padding-top: 30px;">
+            <button type="submit" id="create-image-btn" style="border: 1px black solid; background-color: transparent; font-family: michroma; padding: 10px;">Download</button>
+          </div>
+        </form>
+        <div id="final-image-container"></div>
       </div>
     </div>
 
@@ -121,7 +131,7 @@
     </div>
 
   </div>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.10/umd.js" integrity="sha512-XzD6JvbRszCVIgiNU2pgCFnCtHmgu5sDydUMFNeuNkWKCccMYTJLxbe0r+PG4QNeDx7NMcrPWmztn185dHPLPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="assets/js/index.js"></script>
 </body>
 

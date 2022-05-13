@@ -34,7 +34,7 @@
 
   .name {
     position: absolute;
-    bottom: 120px;
+    bottom: 100px;
     left: 650px;
 
   }
@@ -82,4 +82,17 @@
   .subtitle{
     font-family: 'Michroma', sans-serif;
     color: rgba(0, 0, 0, 0.306);
+    }
+
+    #my-canvas {
+      position: fixed;
+      top: -100%;
+      left: -100%;
+      opacity: 0;
+    }
+
+    #name-form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
