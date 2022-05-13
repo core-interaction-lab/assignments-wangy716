@@ -32,9 +32,23 @@
     margin-bottom: 30px;
   }
 
+  #create-image-btn{
+    border: 1px black solid; 
+    background-color: transparent; 
+    font-family: michroma;
+    font-size: 5px; 
+    padding: 5px;
+  }
+  #create-image-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+  }
+
   .name {
     position: absolute;
-    bottom: 100px;
+    bottom: 70px;
     left: 650px;
 
   }
@@ -44,6 +58,7 @@
     border-bottom: solid;
     outline: none;
   }
+
 
   input[type="range"] {
     -webkit-appearance: none;
