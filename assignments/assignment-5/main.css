@@ -1,0 +1,13 @@
+.content{
+    display: flex;
+    padding: 0.5rem;
+}
+section{
+    padding: 50px;
+    margin: 50px;
+}
+.input-value{
+    display: inline-block;
+    width: 80px;
+    border-bottom: 1px black solid;
+}
