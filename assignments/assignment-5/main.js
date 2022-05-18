@@ -12,3 +12,4 @@ formEl.addEventListener('submit', e => {
         span.innerHTML = formData.get(span.dataset.input);
     });
 })
+

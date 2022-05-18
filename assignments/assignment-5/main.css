@@ -1,13 +1,39 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    background-color: whitesmoke;
+}
 .content{
     display: flex;
     padding: 0.5rem;
 }
+
 section{
     padding: 50px;
     margin: 50px;
 }
+
 .input-value{
     display: inline-block;
     width: 80px;
-    border-bottom: 1px black solid;
+    border-bottom: 1px blue solid;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+form input {
+    display: block;
+    margin-bottom: .5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+
